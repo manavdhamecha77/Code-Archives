@@ -1,0 +1,29 @@
+h1{ 
+    color: aqua;
+}
+
+.Pagination{
+    text-align: center;
+    
+}
+
+.Pagination a{
+    text-decoration: none;
+    padding: 3px 8px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    font-size: 45px;
+    color: black;
+    border-radius:10px
+}
+
+.Pagination a.active{
+    background-color: hsl(120, 100%, 60%);
+
+}
+
+.Pagination a:hover:not(.active){
+    background-color: hsl(0, 0%, 75%);
+}
+
