@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="card">
+        <h1 class="signinheader">Sign In</h1>
+        <hr><br>
+        <form action="login-handler.php" method="POST">
+            <p class="signin_input">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </p>
+            <p class="signin_input">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </p>
+            <div class="button-container">
+                <button type="submit" id="login-btn">Login</button>
+            </div>
+            <br>
+            <div class="signin_change"></div>
+            <a class="signin_change" href="signup.html">Don't have an account? Register now</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+

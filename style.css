@@ -1,0 +1,95 @@
+/* Basic reset for body */
+body {
+    background-image: url('BG.avif'); /* Background image */
+    background-size: cover; /* Cover entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+/* Sign in header style */
+.signinheader {
+    font-family: "Tiny5", sans-serif;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(254, 38, 211);
+    font-size: 3.5em;
+}
+
+/* Input field styles */
+.signin_input {
+    font-family: "Tiny5", sans-serif;
+    color: aliceblue;
+    font-size: 1.2em;
+}
+
+/* Link for changing to signup */
+.signin_change {
+    font-family: "Tiny5", sans-serif;
+    color: aliceblue;
+    text-align: center;
+    font-size: 1.2em;
+    display: block; /* Make it a block element for centering */
+    margin-top: 10px; /* Add space above the link */
+}
+
+/* Card styles for the sign-in form */
+#card {
+    backdrop-filter: blur(15px); /* Blur effect for background */
+    padding: 30px 80px; /* Padding around the card */
+    border-radius: 25px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Glass effect shadow */
+}
+
+/* Input styles for text, email, password, and date */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the input */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Light border */
+    border-radius: 25px; /* Rounded corners */
+    background: rgba(255, 255, 255, 0.1); /* Light transparent background */
+    color: white; /* Text color */
+    font-size: 1em; /* Font size */
+    margin-bottom: 15px; /* Space between inputs */
+    transition: border-color 0.3s; /* Smooth border color transition */
+}
+
+/* Focus state for inputs */
+input:focus {
+    outline: none; /* Remove default outline */
+    border-color: rgba(255, 255, 255, 0.7); /* Change border color on focus */
+}
+
+/* Button container styles */
+.button-container {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center the button horizontally */
+    margin: 20px 0; /* Add margin for spacing */
+}
+
+/* Button styles */
+#login-btn,
+#signup-btn {
+    font-family: "Tiny5", sans-serif; /* Font style */
+    border: none; /* Remove default border */
+    border-radius: 25px; /* Rounded corners */
+    font-size: 1.4em; /* Font size */
+    color: rgb(253, 65, 240); /* Text color */
+    padding: 10px 20px; /* Padding */
+    background-color: hsl(0, 0%, 0%); /* Background color */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition on hover */
+}
+
+#login-btn:hover,
+#signup-btn:hover {
+    background-color: hsl(0, 0%, 30%); /* Darken background on hover */
+}
+
+/*1896 X 1040 px
