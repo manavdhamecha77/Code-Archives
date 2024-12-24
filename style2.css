@@ -1,0 +1,25 @@
+body{
+    background-color: hsl(180, 100%, 85%);
+    text-align: center;
+    
+}
+
+#myh1{
+    color: hsl(214, 100%, 50%);
+    text-align: center;
+}
+#mylabel{
+    color: hsl(0, 100%, 60%);
+    font-size: 1.5em;
+    cursor: pointer;
+
+}
+
+#myinput{
+    text-align: center;
+}
+
+#mypre{
+    font-size: 2em;
+    text-align: center;    
+}

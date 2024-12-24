@@ -1,0 +1,25 @@
+#countlabel{
+    font-size: 10em;
+    color:hsl(0, 0%, 0%);
+    text-shadow: 3px 3px 5px rgb(0, 255, 251), -3px -3px 5px rgb(255, 0, 242);
+}
+
+#mydiv{
+    text-align: center;
+    border: solid 5px rgb(0, 0, 0);
+    border-radius: 20px;
+
+}
+
+.button{
+    font-size: 2em;
+    background-color: hsl(184, 82%, 54%);
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 15px;
+    transition: background-color 0.5s;
+}
+
+.button:hover{
+    background-color: hsl(184, 82%, 34%);
+}
